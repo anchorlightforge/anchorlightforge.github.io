@@ -1,24 +1,41 @@
 @font-face {
-    font-family: play;
-    src: url(font/Aldrich-Regular.ttf);
-},
-@font-face {
     font-family: blinker;
     src: url(font/Blinker-Light.ttf);
-},
+}
 @font-face {
     font-family: aldrich;
     src: url(font/Aldrich-Regular.ttf);
-},
+}
+@font-face {
+    font-family: play;
+    src: url(font/Play-Regular.ttf);
+}
 h2 {
     font-family: aldrich;
     color: white;
-},
+}
 h4 {
     font-family: aldrich;
     color: white;
-},
+}
+ul {
+  font-family:play,aldrich;
+  color:white;
+}
 p {
     font-family: blinker;
     color: white;
+}
+body{
+  background-color:black;
+    background-image: url(img/bg.png)
+}
+.wrapper {
+  margin:auto;
+  min-width : 800px;
+  width : 60%;
+  height:100%;
+  border-radius:3%;
+  padding:5em;
+  background-color : rgba(0,0,0,.4);
 }
