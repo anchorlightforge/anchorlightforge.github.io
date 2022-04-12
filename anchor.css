@@ -1,19 +1,23 @@
 @font-face {
     font-family: play;
     src: url(font/Aldrich-Regular.ttf);
-}
+},
 @font-face {
     font-family: blinker;
     src: url(font/Blinker-Light.ttf);
-}
+},
 @font-face {
     font-family: aldrich;
     src: url(font/Aldrich-Regular.ttf);
-}
+},
 h2 {
     font-family: aldrich;
     color: white;
-}
+},
+h4 {
+    font-family: aldrich;
+    color: white;
+},
 p {
     font-family: blinker;
     color: white;
